@@ -1,0 +1,316 @@
+body {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+/* nav */
+nav {
+	font-family: Raleway, Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 100px;
+	padding-top: 5px;
+}
+
+ul {
+	margin: 0;
+	padding: 0 .7em 0 0;
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
+
+.nav-padding-right {
+	padding-right: .5em;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.logo-arriba {
+	width: 40vw;
+}
+/* seccion 1 */
+/* section 1 imagen*/
+.section-1 {
+	text-align: center;
+	padding: 0 15px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+	flex-wrap: wrap;
+	color: hsl(243, 87%, 12%);
+}
+
+.primera-imagen-div {
+	box-sizing: border-box;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.primera-imagen {
+	width: 70%;
+}
+/* section 1 h2 */
+#h2-titular {
+	font-family: Raleway, Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	line-height: 160%;
+	padding-bottom: .5em;
+}
+/* section 1 form */
+.form-email1 {
+	padding-top: 1em;
+}
+
+.input-email1 {
+	width: 90%;
+	color: lightgray;
+	padding: 10px;
+	border-radius: 6px;
+	border: 1.5px solid hsl(243, 87%, 12%);
+	/* margin: 0 1em; */
+}
+/* section 1 button email */
+.button-email1 {
+	width: 96%;
+	color: white;
+	padding: 10px;
+	background-color: hsl(224, 93%, 58%);
+	border: none;
+	font-size: 1rem;
+	border-radius: 6px;
+	margin-top: 5%;
+	margin-bottom: 12%;
+	font-weight: 700;
+}
+/* section 2  */
+/* section 2 img */
+.section-2 {
+	text-align: center;
+	padding: 0 15px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+	flex-wrap: wrap;
+	color: hsl(243, 87%, 12%);
+}
+
+.segunda-imagen-div {
+	box-sizing: border-box;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.segunda-imagen {
+	padding: 25px 0 45px 0;
+	width: 70%;
+}
+/* section 2 h2 */
+.section-2 h2 {
+	font-weight: 700;
+	font-family: Raleway, Arial, Helvetica, sans-serif;
+	margin-bottom: 10%;
+	font-size: medium;
+}
+/* section 2 p */
+.section-2 p {
+	text-align: justify;
+}
+/* section 2 a */
+.section-2 a {
+	display: inline-block;
+	color: hsl(170, 45%, 43%);
+	padding-top: 2em;
+	padding-bottom: .4em;
+	font-weight: 400;
+	border-bottom: solid hsl(170, 45%, 43%);
+	border-width: thin;
+	margin-bottom: 2em;
+	font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
+.flecha-icon {
+	vertical-align: middle;
+}
+/* section 2 testimonial */
+.testimonial {
+	padding: 0 15px;
+}
+
+.comillas-icon {
+	display: block;
+}
+
+.testimonial-texto p {
+	font-weight: 400;
+}
+/* section 2 testimonial creditos */
+.testimonial-creditos {
+	display: flex;
+	padding-bottom: 20px;
+}
+/* section 2 img testimonial perfil */
+.perfil {
+	display: inline;
+	border-radius: 50%;
+	margin-right: 5px;
+	width: 35px;
+	height: 35px;
+}
+/* section 2 testimonio datos perfil */
+.testimonial-datospersona {
+	margin-bottom: 80px;
+}
+
+.kyle {
+	font-weight: 700;
+	font-size: 10px;
+	padding: 0 0 7px 0;
+	margin: 0;
+}
+
+.founder {
+	font-size: 10px;
+	padding: 0;
+	margin: 0;
+}
+/* section 3 */
+.section-3 {
+	background-color: hsl(238, 22%, 44%);
+	padding-bottom: 15%;
+	padding: 15px 30px 50px;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.section-3 h2 {
+	font-weight: 700;
+	text-align: center;
+	color: hsl(240, 75%, 98%);
+	font-family: Raleway, Arial, Helvetica, sans-serif;
+	margin-bottom: 10%;
+	font-size: large;
+}
+
+.section-3 p {
+	color: hsl(240, 75%, 98%);
+}
+/* section 3 email */
+.form-email2 {
+	padding-top: 1em;
+}
+
+.input-email2 {
+	width: 93%;
+	color: lightgray;
+	padding: 10px;
+	border-radius: 6px;
+	border: none;
+}
+
+.button-email2 {
+	width: 100%;
+	color: white;
+	padding: 10px;
+	background-color: hsl(224, 93%, 58%);
+	border: none;
+	font-size: 1rem;
+	border-radius: 6px;
+	margin-top: 5%;
+	font-weight: 700;
+}
+/* footer */
+.footer {
+	background-color: hsl(243, 87%, 12%);
+	display: flex;
+	color: wheat;
+	padding: 10% 8%;
+	flex-wrap: wrap;
+	text-align: left;
+}
+
+.logo-abajo {
+	padding-bottom: 30px;
+}
+
+.tel-icon {
+	padding-right: 8px;
+}
+
+.email-icon {
+	padding-right: 8px;
+}
+
+.footer span {
+	width: 100%;
+	padding-bottom: 5%;
+}
+
+#about {
+	padding-top: 15%;
+}
+
+#contact {
+	padding-top: 15%;
+}
+
+#privacy {
+	padding-bottom: 15%;
+}
+.footer ul {
+	width: 100%;
+	text-align: center;
+}
+
+.footer li {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border: 1px solid white;
+	border-radius: 100%;
+	text-align: center;
+	margin: 0px 5px;
+}
+
+.fab {
+	display: block;
+	color: #fff;
+	font-size: 25px;
+}
+
+.footer i {
+	line-height: 50px;
+}
+/* media query */
+@media (min-width: 540px) {
+	/* nav media query */
+	.logo-arriba {
+		width: 10vw;
+	}
+	/* section 1 media query */
+}
